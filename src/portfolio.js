@@ -20,132 +20,91 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Adams Dari",
+  title: "Hi, I'm Adams 👋",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Software Engineer and M.Sc. Computer Science student 🚀 passionate about backend development, algorithms, and building real-world applications."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink:"/Adam-Dari-CV.pdf",
+  displayGreeting: true
 };
+;
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/DariAdams",
+  linkedin: "https://www.linkedin.com/in/adam-dari-6a8003232/",
+  gmail: "adamsdari16@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "https://medium.com/@adamsdari19",
+  stackoverflow: "",
+  display: true
 };
+;
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Software Engineer focused on backend, problem solving, and real-world applications.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build clean, maintainable backend systems using Python & OOP"),
+    emoji("⚡ Solve algorithmic problems using data structures & efficient techniques"),
+    emoji("⚡ Develop full applications (Car Rental System, Restaurant App, Barbershop App)"),
+    emoji("⚡ Experience with version control, GitHub, and building real-world projects")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "Algorithms", fontAwesomeClassname: "fas fa-brain" },
+  { skillName: "Data Structures", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git" }
+],
+
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "The Open University of Israel",
+      logo: require("./assets/images/harvardLogo.png"), // temporary name, will use your logo file
+      subHeader: "M.Sc. in Computer Science (in progress)",
+      duration: "2024 - Present",
+      desc: "Graduate student focusing on advanced topics in algorithms, deep learning, and digital image processing.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studying advanced algorithms and problem solving",
+        "Courses in Deep Learning and Digital Image Processing"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Bahçeşehir University (BAU), Istanbul",
+      logo: require("./assets/images/stanfordLogo.png"), // temporary name, will use your logo file
+      subHeader: "B.Sc. in Software Engineering",
+      duration: "2018 - 2022",
+      desc: "Completed a bachelor's degree in Software Engineering with hands-on projects and strong foundations in programming and software design.",
+      descBullets: [
+        "Capstone project: 3D Concrete Printer integrated with AutoCAD",
+        "Projects in web & app development, databases, and software architecture"
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -171,35 +130,41 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend Developer",
+      company: "BiggPlus",
+      companylogo: require("./assets/images/facebookLogo.jpg"),
+      date: "Feb 2021 – Aug 2023",
+      desc: "Worked as a Backend Developer building enterprise-level systems using ASP.NET, C#, AngularJS, and microservices.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed backend features using ASP.NET, C#, microservices, and Visual Studio",
+        "Provided infrastructure support for large-scale websites including Turkish Airlines",
+        "Managed hosting services, firewalls, backups, software updates, and server maintenance",
+        "Collaborated with cross-functional teams on loyalty software systems and enterprise solutions"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+  {
+  role: "IT Support / Technical Assistant",
+  company: "Hertz",
+  companylogo: require("./assets/images/quoraLogo.jpg"), // your Hertz logo
+  date: "9 months",
+  desc: "Provided full technical support for Hertz operations, ensuring smooth daily workflow and resolving system issues for employees.",
+  descBullets: [
+    "Troubleshot and fixed hardware & software problems for branch employees",
+    "Supported internal systems, printers, network devices, and company software",
+    "Assisted customers with rental system issues to ensure smooth service",
+    "Performed system setup, maintenance, and configuration for new workstations",
+    "Ensured stable operation of office technology and digital tools"
+  ]
+}
+
   ]
 };
+
+
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -239,7 +204,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +265,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +289,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +308,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +321,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,10 +336,11 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to reach out for opportunities, questions, or collaborations. I'm always open to connect.",
+  number: "+972502236688", // leave empty to hide phone number or add your number if you want
+  email_address: "adamsdari16@gmail.com"
 };
+;
 
 // Twitter Section
 
